@@ -8,7 +8,7 @@
 // Follow the UMD template https://github.com/umdjs/umd/blob/master/templates/returnExportsGlobal.js
 (function (root, factory) {
     module.exports = factory();
-}(this, function(moment, $) {
+}(this, function() {
     moment = require('moment-timezone')
     $ = require('jquery')
 
